@@ -12,4 +12,5 @@ printer1 = close.append(df)
 printer = printer1.append(volume)
 printer1.plot()
 plt.show
+plt.savefig('my_plot.png')
 printer.to_csv (r'/Users/mikhailpuchkov/Desktop/miexport_dataframe.csv', index = True, header=True)
